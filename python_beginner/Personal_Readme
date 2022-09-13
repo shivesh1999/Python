@@ -1,0 +1,43 @@
+Python 
+
+dynamically typed 
+string is immutable
+list is mutable
+tuples is immutable
+
+can change value of object, but able to change the object 
+global variables is used to change the variable with that name in that entire program
+
+# iterable :
+# iterator :
+              a thing we can iterate over
+              a special object with next ( ) method . 
+
+
+// django project setup 
+django-admin startproject project_name
+Python manage.py 
+
+make a app in the directory 
+django manage.py startapp app_name 
+
+include urls from wsgiref.util import setup_testing_defaults
+from app to the project urls
+
+add path and assign a view to it
+
+add a view function to react to the route
+
+add the db in settings
+
+add the app settings 
+
+register your model in admin.py
+
+in templates 
+
+{{ variable }}
+
+{%for %}
+
+{}

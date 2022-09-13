@@ -1,0 +1,12 @@
+<head>
+{% load static %}
+<link href="{ %static 'tiny/css/prism'}" rel="stylesheet">
+</head>
+<body>
+{% for tut in tutorials %}
+    tutorial - {{tut}}<br>
+    tutorial_published - {{tut.tutorial_published}}<br>
+    tutorial_content - {{tut.tutorial_content}}<br>
+{% endfor %}
+</body>
+<script src="{% static 'tin'}"
